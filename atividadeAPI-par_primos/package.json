@@ -1,0 +1,25 @@
+{
+  "name": "api_url_base",
+  "version": "1.0.0",
+  "description": "Estou estudando sobre API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MateusC2/AulasJavaScript.git"
+  },
+  "author": "Miguel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MateusC2/AulasJavaScript/issues"
+  },
+  "homepage": "https://github.com/MateusC2/AulasJavaScript#readme",
+  "dependencies": {
+    "axios": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
