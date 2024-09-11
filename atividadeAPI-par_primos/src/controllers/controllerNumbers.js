@@ -32,7 +32,7 @@ module.exports = class controllerNumbers {
         res.status(200).json({message: "Número par!!"});
       }
       else{
-        res.status(200).json({message: "Dado inválido"});
+        res.status(200).json({message: "Número impar!!"});
       }
     } 
   }//FIM DOS PAR
