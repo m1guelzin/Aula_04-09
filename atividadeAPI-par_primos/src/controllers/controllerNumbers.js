@@ -47,7 +47,7 @@ module.exports = class controllerNumbers {
         res.status(200).json({message: "Número primo!!"});
       }
       else{
-        res.status(200).json({message: "Dado inválido"});
+        res.status(200).json({message: "Número não primo!!"});
       }
     } 
   }//FIM DOS PRMOS

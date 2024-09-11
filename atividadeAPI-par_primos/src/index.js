@@ -19,7 +19,7 @@ class AppController {
   //Define as rotas da nossa API
   routes() {
     const apiRoutes = require('./routes/apiRoutes');
-    this.express.use('/project-senai/api/v1/',apiRoutes);
+    this.express.use('/numero-par-primo/',apiRoutes);
 
   
     //Define uma rota GET para o caminho health
